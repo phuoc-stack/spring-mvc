@@ -25,7 +25,8 @@
 
 	<mvc:annotation-driven />
 
-
+	<mvc:resources mapping="/template/**" location="/template/" />
+	
 	<bean
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 
